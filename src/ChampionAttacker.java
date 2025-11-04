@@ -1,8 +1,8 @@
 public class ChampionAttacker implements Comparable<ChampionAttacker> {
-    private String championName;
-    private String championTrait;
-    private int priority;    // Represents Threat or DPS
-    private int timestamp;   // Order of arrival in "range"
+    private final String championName;
+    private final String championTrait;
+    private final int priority;    // Represents Threat or DPS
+    private final int timestamp;   // Order of arrival in "range"
 
     public ChampionAttacker(String championName, String championTrait, int priority, int timestamp) {
         this.championName = championName;
